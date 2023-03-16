@@ -123,10 +123,10 @@ add_item_1.addEventListener('click', () => {
   console.log(type.value);
 
   var z = document.createElement('option');
-  var t = document.createTextNode('H');
+  var t = document.createTextNode('24');
   z.appendChild(t);
   var z1 = document.createElement('option');
-  var t1 = document.createTextNode('G');
+  var t1 = document.createTextNode('22');
   z1.appendChild(t1);
   var z2 = document.createElement('option');
   var t2 = document.createTextNode('18');
@@ -275,7 +275,13 @@ if(add_on.value==""){
 // amount calculation
 //note - daily rate for gold is stored in local storage
 const display_gold_rate_24k_span=document.getElementById("gold_rate_24k_span");
+
+"24 will be edit to H for high"
+display_gold_rate_24k_span.contentEditable="true";
+
 const display_gold_rate_22k_span=document.getElementById("gold_rate_22k_span");
+"22 will be edit to H for genral"
+display_gold_rate_22k_span.contentEditable="true";
 
 const display_gold_rate_18k_span=document.getElementById("gold_rate_18k_span");
 const gold_type=type.value;
