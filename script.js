@@ -123,10 +123,10 @@ add_item_1.addEventListener('click', () => {
   console.log(type.value);
 
   var z = document.createElement('option');
-  var t = document.createTextNode('High');
+  var t = document.createTextNode('H');
   z.appendChild(t);
-  var z1 = document.createElement('Gen');
-  var t1 = document.createTextNode('24');
+  var z1 = document.createElement('option');
+  var t1 = document.createTextNode('G');
   z1.appendChild(t1);
   var z2 = document.createElement('option');
   var t2 = document.createTextNode('18');
