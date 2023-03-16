@@ -1,0 +1,12 @@
+#gold_rate_section{
+  display: flex;
+align-items: center;
+background-color: white;
+}
+#gold_rate_section>div{
+margin: 5px;
+
+}
+#gold_rate_18k_span{
+  display: none;
+}
